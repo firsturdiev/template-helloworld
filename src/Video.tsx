@@ -11,9 +11,9 @@ export const RemotionVideo: React.FC = () => {
 				id="HelloWorld"
 				component={HelloWorld}
 				durationInFrames={150}
-				fps={30}
-				width={1920}
-				height={1080}
+				fps={20}
+				width={800}
+				height={560}
 				defaultProps={{
 					titleText: 'Welcome to Remotion',
 					titleColor: 'black',
@@ -22,18 +22,18 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="Logo"
 				component={Logo}
-				durationInFrames={200}
-				fps={30}
-				width={1920}
-				height={1080}
+				durationInFrames={100}
+				fps={20}
+				width={800}
+				height={560}
 			/>
 			<Composition
 				id="Title"
 				component={Title}
 				durationInFrames={100}
-				fps={30}
-				width={1920}
-				height={1080}
+				fps={20}
+				width={800}
+				height={560}
 				defaultProps={{
 					titleText: 'Welcome to Remotion',
 					titleColor: 'black',
@@ -43,9 +43,9 @@ export const RemotionVideo: React.FC = () => {
 				id="Subtitle"
 				component={Subtitle}
 				durationInFrames={100}
-				fps={30}
-				width={1920}
-				height={1080}
+				fps={20}
+				width={800}
+				height={560}
 			/>
 		</>
 	);
